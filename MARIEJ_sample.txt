@@ -1,9 +1,9 @@
-    LOAD X       # AC ← M[X] (5)
-    ADD Y        # AC ← AC + M[Y] (5 + 10)
-    STORE Z      # M[Z] ← AC
-    OUTPUT       # print AC (should be 15)
-    HALT         # stop program
+    LOAD X 
+    ADD Y
+    STORE Z
+    OUTPUT
+    HALT
 
-X,  DEC 5        # value 5
-Y,  DEC 10       # value 10
-Z,  DEC 0        # where we'll store the result
+X,  DEC 5 
+Y,  DEC 10
+Z,  DEC 0 
